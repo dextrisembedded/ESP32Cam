@@ -152,6 +152,7 @@ Candidates were evaluated on:
 
 ## 13. Real-World Deployment Flow
 
+```text
 Customer Powers Device
        ↓
 ESP32 Attempts Wi-Fi Connection
@@ -169,6 +170,7 @@ Enter Local Wi-Fi Credentials via Webpage
 Store Credentials to NV Storage
        ↓
 Reconnect to Wi-Fi ──> Normal Operation
+```
 
 
 
@@ -181,6 +183,7 @@ Reconnect to Wi-Fi ──> Normal Operation
 
 ## 15. Proposed Repository Structure
 
+```text
 ESP32Cam/
 ├── README.md                  # Main project landing page
 ├── docs/                      # Schematics and APIs
@@ -188,6 +191,7 @@ ESP32Cam/
 ├── examples/                  # Test peripheral sketches
 ├── images/                    # Asset compilation directory
 └── resources/                 # Config JSONs and templates
+```
 
 
 ## 16. Comparative Analysis
